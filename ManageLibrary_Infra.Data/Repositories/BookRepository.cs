@@ -1,4 +1,4 @@
-﻿using ManageLibrary_Domain.Entities;
+using ManageLibrary_Domain.Entities;
 using ManageLibrary_Infra.Context;
 using ManageLibrary_Infra.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -31,7 +31,21 @@ namespace ManageLibrary_Infra.Repositories {
             return book;
         }
 
+        public async Task<Book> GetBookByIdLoan(int idLoan)
+        {
+            var book = await _appDbContext.Book.FirstOrDefaultAsync(b => b.Loan.Id == idLoan);
+
+            return book;
+        }
+
         public async Task UpdateBook(Book book) {
+            _appDbContext.Book.Update(book);
+            await _appDbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateBookChangeTrackerClear(Book book)
+        {
+            _appDbContext.ChangeTracker.Clear();
             _appDbContext.Book.Update(book);
             await _appDbContext.SaveChangesAsync();
         }

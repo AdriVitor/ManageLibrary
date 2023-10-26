@@ -27,6 +27,25 @@ namespace ManageLibrary_Application.Services
             return await _bookRepository.GetBookById(id);
         }
 
+        public async Task<BookDTO> GetBookByIdLoan(int idLoan)
+        {
+            var book = await _bookRepository.GetBookByIdLoan(idLoan);
+            var bookDTO = _mapper.Map<BookDTO>(book);
+
+            return bookDTO;
+        }
+
+        public async Task UpdateAvailableQuantityBook(int id)
+        {
+            var book = await GetBookById(id);
+            var bookDTO = _mapper.Map<BookDTO>(book);
+
+            bookDTO.AvailableQuantity -= 1;
+
+            var bookUpdated = _mapper.Map<Book>(bookDTO);
+            await _bookRepository.UpdateBookChangeTrackerClear(bookUpdated);
+        }
+
         public async Task UpdateBook(BookDTO bookDTO) {
             var book = _mapper.Map<Book>(bookDTO);
             await _bookRepository.UpdateBook(book);

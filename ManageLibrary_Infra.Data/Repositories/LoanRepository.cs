@@ -32,8 +32,14 @@ namespace ManageLibrary_Infra.Repositories {
         }
 
         public async Task<ICollection<Loan>> GetLoansByIdCustomer(int idCustomer) {
-            var loansCustomer = await _appDbContext.Loan.Where(l => l.IdCustomer == idCustomer).ToListAsync();
-            return loansCustomer;
+            //var loansCustomer = await _appDbContext.Loan.Where(l => l.IdCustomer == idCustomer).ToListAsync();
+            //return loansCustomer;
+
+            var query = from loans in _appDbContext.Loan
+                        where loans.IdCustomer == idCustomer
+                        select loans;
+
+            return query.ToList();
         }
 
         public async Task UpdateLoan(Loan loan) {

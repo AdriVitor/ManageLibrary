@@ -9,11 +9,13 @@ namespace ManageLibrary_Application.Services
     public class CustomerService : ICustomerService {
         private readonly ICustomerRepository _customerRepository;
         private readonly ILoanRepository _loanRepository;
+        private readonly IBookService _bookService;
         private readonly IMapper _mapper;
-        public CustomerService(ICustomerRepository customerRepository, ILoanRepository loanRepository, IMapper mapper)
+        public CustomerService(ICustomerRepository customerRepository, ILoanRepository loanRepository, IBookService bookService, IMapper mapper)
         {
             _customerRepository = customerRepository;
             _loanRepository = loanRepository;
+            _bookService = bookService;
             _mapper = mapper;
         }
         public async Task AddCustomer(CustomerDTO customerDTO) {
@@ -28,12 +30,16 @@ namespace ManageLibrary_Application.Services
         public async Task<ReadCustomerDTO> GetCustomerById(int id) {
             var customer = await _customerRepository.GetCustomerById(id); 
             var loans = await _loanRepository.GetLoansByIdCustomer(id);
-
+            
             var readCustomerDTO = _mapper.Map<ReadCustomerDTO>(customer);
             List<ReadLoanDTO> loansDTO = _mapper.Map<List<ReadLoanDTO>>(loans);
             
-            readCustomerDTO.Loans = loansDTO;
+            foreach (var loanDTO in loansDTO)
+            {
+                loanDTO.Book = await _bookService.GetBookByIdLoan(loanDTO.Id);
+            }
 
+            readCustomerDTO.Loans = loansDTO;
             return readCustomerDTO;
         }
 

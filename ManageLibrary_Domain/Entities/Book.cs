@@ -19,7 +19,7 @@ namespace ManageLibrary_Domain.Entities {
         {
             DomainExceptionValidation.When(name == null || name.Length > 100, "O nome não pode ser vazio e nem ter mais do que 100 caracteres");
             DomainExceptionValidation.When(author.Length > 100, "O autor não pode ter mais do que 100 caracteres");
-            DomainExceptionValidation.When(availableQuantity == 0, "Para cadastrar um livro é preciso que tenha pelo menos um do mesmo em estoque");
+            DomainExceptionValidation.When(availableQuantity < 0, "O livro está indisponível");
 
             Name = name;
             Author = author;
