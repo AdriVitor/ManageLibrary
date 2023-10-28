@@ -22,3 +22,15 @@ E:\ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.dll
 E:\ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\refint\ManageLibrary_Domain.dll
 E:\ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.pdb
 E:\ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ref\ManageLibrary_Domain.dll
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\bin\Debug\net7.0\ManageLibrary_Domain.deps.json
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\bin\Debug\net7.0\ManageLibrary_Domain.dll
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\bin\Debug\net7.0\ManageLibrary_Domain.pdb
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.csproj.AssemblyReference.cache
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.AssemblyInfoInputs.cache
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.AssemblyInfo.cs
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.dll
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\refint\ManageLibrary_Domain.dll
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.pdb
+D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ref\ManageLibrary_Domain.dll

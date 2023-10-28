@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj": {}
+    "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj": {}
   },
   "projects": {
-    "E:\\ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj": {
+    "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj",
+        "projectUniqueName": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj",
         "projectName": "ManageLibrary_API",
-        "projectPath": "E:\\ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\ManageLibrary\\ManageLibrary_API\\obj\\",
+        "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_API\\ManageLibrary_API.csproj",
+        "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,16 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/WAYDS/index.json": {},
-          "https://pkgs.dev.azure.com/zdzcode/_packaging/ZDZCodeLibraries/nuget/v3/index.json": {}
+          "https://nuget.pkg.github.com/WAYDS/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj"
               }
             }
           }
@@ -74,21 +79,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj": {
+    "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj",
+        "projectUniqueName": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj",
         "projectName": "ManageLibrary_Application",
-        "projectPath": "E:\\ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\ManageLibrary\\ManageLibrary_Application\\obj\\",
+        "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj",
+        "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,19 +105,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/WAYDS/index.json": {},
-          "https://pkgs.dev.azure.com/zdzcode/_packaging/ZDZCodeLibraries/nuget/v3/index.json": {}
+          "https://nuget.pkg.github.com/WAYDS/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
               },
-              "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj"
               }
             }
           }
@@ -144,21 +153,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
+    "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
         "projectName": "ManageLibrary_Domain",
-        "projectPath": "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\ManageLibrary\\ManageLibrary_Domain\\obj\\",
+        "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
+        "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,9 +179,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/WAYDS/index.json": {},
-          "https://pkgs.dev.azure.com/zdzcode/_packaging/ZDZCodeLibraries/nuget/v3/index.json": {}
+          "https://nuget.pkg.github.com/WAYDS/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -201,21 +214,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
+    "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj",
+        "projectUniqueName": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj",
         "projectName": "ManageLibrary_Infra.Data",
-        "projectPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\obj\\",
+        "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,16 +240,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/WAYDS/index.json": {},
-          "https://pkgs.dev.azure.com/zdzcode/_packaging/ZDZCodeLibraries/nuget/v3/index.json": {}
+          "https://nuget.pkg.github.com/WAYDS/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
               }
             }
           }
@@ -284,21 +301,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj": {
+    "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
+        "projectUniqueName": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
         "projectName": "ManageLibrary_Infra.Ioc",
-        "projectPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Ioc\\obj\\",
+        "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
+        "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -306,22 +327,22 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/WAYDS/index.json": {},
-          "https://pkgs.dev.azure.com/zdzcode/_packaging/ZDZCodeLibraries/nuget/v3/index.json": {}
+          "https://nuget.pkg.github.com/WAYDS/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj"
               },
-              "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
               },
-              "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
-                "projectPath": "E:\\ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj"
+              "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
+                "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj"
               }
             }
           }
@@ -365,7 +386,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

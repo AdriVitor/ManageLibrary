@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M8C7jfV/VxsQ87Yd6FF4UTsKq7nTa5M3I2CMx/9s8Oy83NgaY43cdtnWDDMWjSrbIdkPsNifyGcTBhWdptxh5Q==",
+  "dgSpecHash": "p7Qr9b7n6vuiAYl1aVBAgM9lnJjSuVfUZqdiGh3CCf0BbPNdX4ZgjvcsM66QyL7fSayiTyAdXdqHbW/i1xnY+g==",
   "success": true,
-  "projectFilePath": "E:\\ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
+  "projectFilePath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

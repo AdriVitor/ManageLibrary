@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ManageLibrary_Infra.Ioc
-build_property.ProjectDir = E:\ManageLibrary\ManageLibrary_Infra.Ioc\
+build_property.ProjectDir = D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Infra.Ioc\
