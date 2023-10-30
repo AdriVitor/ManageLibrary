@@ -9,6 +9,8 @@
     <li>AutoMapper</li>
     <li>SQL Server</li>
     <li>Swagger</li>
+    <li>xUnit</li>
+    <li>Fluent Assertions</li>
 </ul>
 
 ## Architecture
