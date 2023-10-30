@@ -24,7 +24,3 @@
 <ul>
     <li>Repository Pattern</li>
 </ul>
-
-<br>
-
-<p><b>Status: Em Desenvolvimento </b></p>
