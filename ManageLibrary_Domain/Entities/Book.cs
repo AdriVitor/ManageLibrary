@@ -8,7 +8,7 @@ namespace ManageLibrary_Domain.Entities {
         public string Name { get; private set; }
         public string Author { get; private set; }
         public int AvailableQuantity { get; private set; }
-        public Loan? Loan { get; private set; }
+        public Loan? Loan { get; set; }
 
         public Book()
         {

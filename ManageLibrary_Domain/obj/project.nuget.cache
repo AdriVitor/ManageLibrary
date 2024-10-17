@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "p7Qr9b7n6vuiAYl1aVBAgM9lnJjSuVfUZqdiGh3CCf0BbPNdX4ZgjvcsM66QyL7fSayiTyAdXdqHbW/i1xnY+g==",
+  "dgSpecHash": "mLS+tyDsfO8SQKBTnnxAskIvbTamAlwaqIiUsZ2s1ppPc1oIn6rGaCS3sigljQaL8Mp+fqtibrDukISB3aLQMA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

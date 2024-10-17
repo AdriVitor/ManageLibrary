@@ -2736,24 +2736,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adriano.araujo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
+      "projectUniqueName": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
       "projectName": "ManageLibrary_Infra.Ioc",
-      "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
-      "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\obj\\",
+      "projectPath": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\ManageLibrary_Infra.Ioc.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Ioc\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2761,22 +2756,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/WAYDS/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj": {
-              "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj"
+            "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj": {
+              "projectPath": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Application\\ManageLibrary_Application.csproj"
             },
-            "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
-              "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
+            "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj": {
+              "projectPath": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Domain\\ManageLibrary_Domain.csproj"
             },
-            "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
-              "projectPath": "D:\\Projetos\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj"
+            "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj": {
+              "projectPath": "C:\\Projetos\\Backend\\Clean_Architecture-ManageLibrary\\ManageLibrary_Infra.Data\\ManageLibrary_Infra.Data.csproj"
             }
           }
         }
@@ -2785,6 +2778,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2815,12 +2813,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.18, 7.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.18, 7.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.18, 7.0.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
