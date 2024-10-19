@@ -8,7 +8,7 @@ namespace ManageLibrary_Domain.Entities {
         public string Name { get; private set; }
         public string Author { get; private set; }
         public int AvailableQuantity { get; private set; }
-        public Loan? Loan { get; private set; }
+        public Loan? Loan { get; set; }
 
         public Book()
         {
@@ -17,7 +17,7 @@ namespace ManageLibrary_Domain.Entities {
 
         public Book(string name, string author, int availableQuantity, Loan? loan = null)
         {
-            DomainExceptionValidation.When(name == null || name.Length > 100, "O nome não pode ser vazio e nem ter mais do que 100 caracteres");
+            DomainExceptionValidation.When(name == null || name.Length > 100, "Escolha um nome com o tamanho válido");
             DomainExceptionValidation.When(author.Length > 100, "O autor não pode ter mais do que 100 caracteres");
             DomainExceptionValidation.When(availableQuantity < 0, "O livro está indisponível");
 
