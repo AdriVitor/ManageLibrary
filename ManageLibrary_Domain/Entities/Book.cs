@@ -17,7 +17,7 @@ namespace ManageLibrary_Domain.Entities {
 
         public Book(string name, string author, int availableQuantity, Loan? loan = null)
         {
-            DomainExceptionValidation.When(name == null || name.Length > 100, "Escolhe um nome com o tamanho válido");
+            DomainExceptionValidation.When(name == null || name.Length > 100, "Escolha um nome com o tamanho válido");
             DomainExceptionValidation.When(author.Length > 100, "O autor não pode ter mais do que 100 caracteres");
             DomainExceptionValidation.When(availableQuantity < 0, "O livro está indisponível");
 

@@ -15,11 +15,11 @@ namespace ManageLibrary_Test.Domain {
 
             actionNameNullValue.Should()
                 .Throw<Exception>()
-                .WithMessage("O nome não pode ser vazio e nem ter mais do que 100 caracteres");
+                .WithMessage("Escolha um nome com o tamanho válido");
 
             actionNameLongerThan100CaracteresValue.Should()
                 .Throw<Exception>()
-                .WithMessage("O nome não pode ser vazio e nem ter mais do que 100 caracteres");
+                .WithMessage("Escolha um nome com o tamanho válido");
         }
 
         [Fact(DisplayName = "Testing if the author is longer than 100 characters")]
