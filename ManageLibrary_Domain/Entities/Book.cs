@@ -10,11 +10,6 @@ namespace ManageLibrary_Domain.Entities {
         public int AvailableQuantity { get; private set; }
         public Loan? Loan { get; set; }
 
-        public Book()
-        {
-            
-        }
-
         public Book(string name, string author, int availableQuantity, Loan? loan = null)
         {
             DomainExceptionValidation.When(name == null || name.Length > 100, "Escolha um nome com o tamanho válido");
