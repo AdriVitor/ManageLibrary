@@ -1,4 +1,4 @@
-name: Test and Docker Push Project
+name: Run Tests and Push Docker Image
 
 on:
   push:
