@@ -1,30 +1,16 @@
-using ManageLibrary_Application.Interfaces;
-using ManageLibrary_Application.Services;
-using ManageLibrary_Infra.Context;
-using ManageLibrary_Infra.Interfaces;
 using ManageLibrary_Infra.Ioc;
-using ManageLibrary_Infra.Repositories;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-/*builder.Services.AddDbContext<AppDbContext>(options => {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});*/
 
 builder.Services.AddInfraestructure(builder.Configuration);
 
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
