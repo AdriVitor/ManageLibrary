@@ -15,6 +15,7 @@ namespace ManageLibrary_Infra.Ioc {
             services.AddDbContext<AppDbContext>(options => {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
             });
+
             //Dependency Injection
 
             //Services
