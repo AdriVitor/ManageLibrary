@@ -34,15 +34,3 @@ D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7
 D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\refint\ManageLibrary_Domain.dll
 D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.pdb
 D:\Projetos\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ref\ManageLibrary_Domain.dll
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\bin\Debug\net7.0\ManageLibrary_Domain.deps.json
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\bin\Debug\net7.0\ManageLibrary_Domain.dll
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\bin\Debug\net7.0\ManageLibrary_Domain.pdb
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.AssemblyInfoInputs.cache
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.AssemblyInfo.cs
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.csproj.CoreCompileInputs.cache
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.sourcelink.json
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.dll
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\refint\ManageLibrary_Domain.dll
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ManageLibrary_Domain.pdb
-C:\Projetos\Backend\Clean_Architecture-ManageLibrary\ManageLibrary_Domain\obj\Debug\net7.0\ref\ManageLibrary_Domain.dll

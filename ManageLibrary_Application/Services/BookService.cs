@@ -43,7 +43,7 @@ namespace ManageLibrary_Application.Services
             bookDTO.AvailableQuantity -= 1;
 
             var bookUpdated = _mapper.Map<Book>(bookDTO);
-            await _bookRepository.UpdateBookChangeTrackerClear(bookUpdated);
+            await _bookRepository.UpdateBookWithCleanTracker(bookUpdated);
         }
 
         public async Task UpdateBook(BookDTO bookDTO) {
