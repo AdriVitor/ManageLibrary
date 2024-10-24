@@ -43,11 +43,15 @@ namespace ManageLibrary_Infra.Repositories {
             await _appDbContext.SaveChangesAsync();
         }
 
-        public async Task UpdateBookChangeTrackerClear(Book book)
+        public async Task UpdateBookWithCleanTracker(Book book)
+        {
+            ChangeTrackerClear();
+            await UpdateBook(book);
+        }
+
+        private void ChangeTrackerClear()
         {
             _appDbContext.ChangeTracker.Clear();
-            _appDbContext.Book.Update(book);
-            await _appDbContext.SaveChangesAsync();
         }
     }
 }

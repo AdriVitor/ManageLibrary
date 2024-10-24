@@ -6,7 +6,7 @@ namespace ManageLibrary_Infra.Interfaces {
         public Task<Book> GetBookByIdLoan(int idLoan);
         public Task AddBook(Book book);
         public Task UpdateBook(Book book);
-        public Task UpdateBookChangeTrackerClear(Book book);
+        public Task UpdateBookWithCleanTracker(Book book);
         public Task DeleteBook(int id);
     }
 }
