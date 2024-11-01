@@ -10,11 +10,6 @@ namespace ManageLibrary_Domain.Entities {
         public Book Book { get; private set; }
         public DateTime Date => DateTime.Now;
 
-        public Loan()
-        {
-            
-        }
-
         public Loan(int idCustomer, int idBook)
         {
             DomainExceptionValidation.When(idCustomer < 0, "Informe um id de cliente válido");
@@ -22,6 +17,12 @@ namespace ManageLibrary_Domain.Entities {
 
             IdCustomer = idCustomer;
             IdBook = idBook;
+        }
+
+        public Loan(Customer customer, Book book)
+        {
+            Customer = customer;
+            Book = book;
         }
     }
 }

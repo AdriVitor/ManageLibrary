@@ -1,6 +1,5 @@
 ﻿using ManageLibrary_Application.DTOs.Loan;
 using ManageLibrary_Application.Interfaces;
-using ManageLibrary_Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManageLibrary_API.Controllers {
