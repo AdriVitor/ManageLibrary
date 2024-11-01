@@ -1,7 +1,6 @@
 ﻿using ManageLibrary_Domain.Entities;
 using ManageLibrary_Infra.Context;
 using ManageLibrary_Infra.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace ManageLibrary_Infra.Repositories {
     public class LoanRepository : ILoanRepository {
@@ -23,18 +22,16 @@ namespace ManageLibrary_Infra.Repositories {
         }
 
         public async Task<Loan> GetLoanById(int id) {
-            var loan = await _appDbContext.Loan.FirstOrDefaultAsync(l=>l.Id == id);
-            if(loan == null) {
-                throw new Exception("Não foi localizado nenhum empréstimo");
-            }
+            var loan = (from lo in _appDbContext.Loan
+                        join cs in _appDbContext.Customer on lo.IdCustomer equals cs.Id
+                        join bo in _appDbContext.Book on lo.IdBook equals bo.Id
+                        where lo.Id == id
+                        select new Loan(cs, bo)).FirstOrDefault();
 
-            return loan;
+            return loan ?? throw new Exception("Não foi encontrado nenhum empréstimo");
         }
 
         public async Task<ICollection<Loan>> GetLoansByIdCustomer(int idCustomer) {
-            //var loansCustomer = await _appDbContext.Loan.Where(l => l.IdCustomer == idCustomer).ToListAsync();
-            //return loansCustomer;
-
             var query = from loans in _appDbContext.Loan
                         where loans.IdCustomer == idCustomer
                         select loans;
